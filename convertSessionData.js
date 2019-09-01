@@ -6,7 +6,7 @@ let projectRoot = path.normalize(__dirname);
 let archivePath = projectRoot + '/archive_data'
 let dataPath = projectRoot + '/src/_data'
 
-let year = '2013'
+let year = '2012'
 
 convertSessions();
 convertLevels();
