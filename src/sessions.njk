@@ -1,0 +1,58 @@
+---
+layout: page-layout.njk
+title: 2013 Sessions
+meta_title: '2013 Sessions :: Vermont Code Camp'
+description: Read more about the sessions of Vermont Code Camp 2013
+meta_description: Read more about the sessions of Vermont Code Camp 2013
+---
+
+<h1>{{title}}</h1>
+<p>{{description}}</p>
+
+{% for spaceSlug, spaceSessions in sessionsBySpace %}
+<article class="space">
+
+    {% set trackSlug = spaces[spaceSlug].track %}
+
+    <h2 id="{{ spaceSlug }}"> {{ tracks[trackSlug].title }} <small>({{ spaces[spaceSlug].title }})</small></h2>
+
+    {% for timeCode, session in spaceSessions %}
+    <article class="session">
+        <h3 id="{{session.slug}}">
+            {{ session.title }} 
+            <small class="parenthesis">
+                {% for speakerSlug in session.speakers %}
+                    {% set speaker = speakers[speakerSlug] %}
+                    <a href="/speakers#{{speakerSlug}}">
+                        {{ speaker.firstName }} {{ speaker.lastName }}
+                    </a>
+                    {% if not loop.last %}/{% endif %}
+                {% endfor %}
+            </small>
+            <small>
+                <a href="/schedule#{{ session.timePeriod }}">
+                    {% set timePeriod = timePeriods[session.timePeriod] %}
+                    {{ timePeriod.start | to12hourTime }}-{{ timePeriod.end | to12hourTime }}
+                </a>
+            </small>
+        </h3>
+        {% set level = levels[session.level] %}
+        {% if level %}
+            <p class="level">{{ level.title }} <small>({{ level.description }})</small></p>
+        {% endif %}
+        
+        {{ session.description | markdown | safe }}
+
+        {% if session.resources %}
+            <p>Resources:</p>
+            <ul>
+            {% for resource in session.resources %}
+                <li><a href="{{ resource.href }}">{{ resource.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </article>
+    {% endfor %}
+</article>
+{% endfor %}
+

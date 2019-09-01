@@ -1,0 +1,22 @@
+{
+    "100": {
+        "slug": "100",
+        "title": "Level 100",
+        "description": "Absolute Beginner"
+    },
+    "200": {
+        "slug": "200",
+        "title": "Level 200",
+        "description": "Still a Little Green Behind the Gills"
+    },
+    "300": {
+        "slug": "300",
+        "title": "Level 300",
+        "description": "Pretty Darned Experienced"
+    },
+    "400": {
+        "slug": "400",
+        "title": "Level 400",
+        "description": "Blackbelt Ninja Super-Ace, or want to be one!"
+    }
+}

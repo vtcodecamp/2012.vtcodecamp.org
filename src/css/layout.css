@@ -1,0 +1,639 @@
+:root {
+    --vtcc-blue: #1595D3;
+    --vtcc-orange: #FDB000;
+
+    --dark-gray: #222;
+    --medium-gray: #666;
+    --light-gray: #BBB;
+    --lightest-gray: #EEE;
+}
+
+
+
+body {
+    background-color: #F5F5F5;
+    background-repeat: repeat;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    color: black;
+    text-align: center;
+}
+section.content,
+.page {
+    width: 96%;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+}
+section.content {
+    max-width: 920px;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    background-color: white;
+    z-index: 5;
+}
+.inner {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside.page {
+    overflow: hidden;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    background-color: #FDB000;
+    border-bottom: 1px solid white;
+    font-size: 0.95em;
+    text-align: center;
+}
+aside.page,
+aside.page a{
+    color: white;
+    vertical-align: top;
+}
+aside.page svg {
+    fill: white;
+}
+
+aside.page a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+aside.page a:hover,
+aside.page a:focus {
+    text-decoration: underline;
+}
+aside.page p {
+    margin-top: 0;
+}
+aside.page ul.list-inline,
+aside.page ol.list-inline {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+aside.page ul.list-inline li,
+aside.page ol.list-inline li {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: baseline;
+}
+
+
+/* Header */
+
+header.page {
+    position: relative;
+    padding: 16px 2%;
+    background-color: #1595D3;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(0, 0, 0, 0.2)));
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    text-align: center;
+    -webkit-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
+    z-index: 8;
+}
+header a:hover {
+    text-decoration: none;
+}
+.header-logo {
+    display: block;
+    width: 570px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header-logo svg {
+    display: block;
+}
+
+header.page nav {
+    width: 96%;
+    display: inline-block;
+    margin-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    vertical-align: middle;
+}
+header.page h1,
+header.page h1 a,
+header.page p,
+header.page li,
+header.page a {
+    color: white;
+}
+header.page h1 {
+    margin-top: 0;
+}
+header.page nav ul {
+    margin-top: 1.4em;
+}
+header.page nav li {
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+    list-style: none;
+}
+header.page nav li a {
+    text-decoration: none;
+}
+header.page nav li a:hover,
+header.page nav li a:focus {
+    text-decoration: underline;
+}
+@media all and (min-width: 480px) {
+
+    header.page nav {
+        width: 45%;
+    }
+    header.page nav li {
+        font-size: 1.3em;
+    }
+}
+@media all and (min-width: 600px) {
+    header.page nav li {
+        font-size: 1.5em;
+    }
+}
+@media all and (min-width: 768px) {
+    header.page nav li {
+        font-size: 2em;
+    }
+}
+
+
+/* Date, Time, Location meta block */
+
+.page.content .meta {
+    display: inline-block;
+
+    text-align: center;
+    vertical-align: middle;
+
+    font-size: 1rem;
+    padding: 1rem 0;
+
+
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    color: var(--dark-gray);
+    
+}
+
+.page.content .meta abbr {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+
+.page.content .meta > abbr > span {
+    display: block;
+}
+.page.content .meta .date-time {
+    display: block;
+    font-weight: bold;
+}
+.page.content .meta .location {
+    max-width: 60%;
+    color: var(--dark-gray);
+}
+.page.content .meta .date-time,
+.page.content .meta .location {
+    display: inline-block;
+    margin: 0 0.3em;
+    vertical-align: middle;
+}
+.page.content .meta .date-time {
+    font-weight: normal;
+}
+
+.page.content .meta .day,
+.page.content .meta .month,
+.page.content .meta .date,
+.page.content .meta .time {
+    line-height: 1;
+    text-transform: uppercase;
+}
+.page.content .meta .day {
+    font-size: 0.75em;
+    margin-bottom: 0.25em;
+}
+.page.content .meta .time {
+    font-size: 0.75em;
+    margin-top: 0.3em;
+}
+.page.content .meta .month,
+.page.content .meta .date {
+    border: 2px solid var(--medium-gray);
+    font-weight: bold;
+    color: var(--medium-gray);
+}
+.page.content .meta .month {
+    padding: 0.3em 0.4em 0.2em;
+    background-color: var(--medium-gray);
+    border-bottom: none;
+    font-size: 1.3em;
+    color: white;
+}
+.page.content .meta .date {
+    font-size: 2.4em;
+
+    padding: 0.2em 0.4em;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+}
+
+.page.content .meta .location {
+    line-height: 1.1;
+    text-align: left;
+}
+.page.content .meta .building {
+    font-size: 0.8em;
+}
+.page.content .meta .place {
+    font-size: 1.35em;
+}
+.page.content .meta .address {
+
+}
+.page.content .meta .address {
+    
+}
+
+@media all and (min-width: 400px) {
+    .page.content .meta .location {
+        /*max-width: none;*/
+    }
+}
+@media all and (min-width: 600px) {
+    .page.content .meta {
+        max-width: 56%;
+    }
+}
+@media all and (min-width: 800px) {
+    .page.content .meta {
+        max-width: none;
+    }
+    .page.content .meta .location {
+        max-width: none;
+    }
+}
+
+
+
+/* Footer */
+
+footer.page {
+    clear: both;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    text-align: center;
+}
+footer.page p,
+footer.page a {
+    color: #999;
+}
+footer.page p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+article.anchor {
+    clear: both;
+}
+article.anchor header h1 {
+    margin: 1em 0 0.2em;
+    padding: 0.3em 1em 0.2em;
+    background-color: #BBB;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    border-radius: 0.3em;
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+}
+article.anchor aside {
+    margin-top: 1em;
+    padding: 2em 2% 3em;
+    background-color: #EEE;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    border-radius: 0.6em;
+    color: #555;
+}
+article.anchor aside h1 {
+    margin-top: 0;
+    color: #444;
+}
+@media all and (min-width: 600px) {
+    article.anchor {
+        padding-top: 1em;
+    }
+    article.anchor header h1 {
+        padding-top: 0.5em;
+        padding-bottom: 0.4em;
+        font-size: 2em;
+    }
+    article.anchor header img,
+    article.anchor aside {
+        max-width: 40%;
+        float: right;
+        margin-bottom: 2em;
+        margin-left: 2em;
+    }
+    article.anchor header img {
+        margin-top: 2.6em;
+    }
+    article.anchor aside {
+        max-width: 36%;
+        clear: right;
+        margin-bottom: 3em;
+    }
+}
+@media all and (min-width: 1024px) {
+    article.anchor header img,
+    article.anchor aside {
+        max-width: 45%;
+    }
+    article.anchor aside {
+        max-width: 41%;
+    }
+}
+article.sponsors {
+    clear: both;
+    padding-top: 2em;
+    text-align: center;
+}
+article.sponsors h1 {
+    font-size: 1.6em;
+    color: #AAA;
+    text-transform: uppercase;
+}
+ul.sponsors li {
+    display: inline-block;
+    margin: 0.6em 1.6em 1.6em;
+    font-size: 1.4em;
+    list-style: none;
+    vertical-align: middle;
+}
+ul.sponsors.premier-level li {
+    margin-bottom: 0.6em;
+}
+ul.sponsors li.name-only {
+    max-width: 150px;
+    font-size: 1.6em;
+}
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 0.3em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -999em;
+}
+.logo.the-university-of-vermont {
+    height: 54px;
+    background-image: url(/media/sponsors/The-University-of-Vermont-logo-150x54.jpg);
+}
+.logo.found-line {
+    height: 56px;
+    background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
+}
+.logo.mywebgrocer {
+    height: 73px;
+    background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
+}
+.logo.dealer-dot-com {
+    width: 250px;
+    height: 23px;
+    background-image: url(/media/sponsors/Dealer-Dot-Com-logo-250x23.jpg);
+}
+.logo.telerik {
+    height: 59px;
+    background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
+}
+.logo.vermont-tech-jam {
+    height: 90px;
+    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
+}
+.logo.champlain-college {
+    width: 250px;
+    height: 16px;
+    background-image: url(/media/sponsors/Champlain-College-logo-250x16.jpg);
+}
+.logo.componentone {
+    width: 142px;
+    height: 100px;
+    background-image: url(/media/sponsors/ComponentOne-logo-142x100.jpg);
+}
+.logo.jetbrains {
+    height: 58px;
+    background-image: url(/media/sponsors/JetBrains-logo-150x58.jpg);
+}
+.logo.agilion-apps {
+    height: 34px;
+    background-image: url(/media/sponsors/Agilion-Apps-logo-150x34.jpg);
+}
+.logo.misys {
+    height: 42px;
+    background-image: url(/media/sponsors/MISys-logo-150x42.jpg);
+}
+.logo.tyler-technologies {
+    height: 53px;
+    background-image: url(/media/sponsors/Tyler-Technologies-logo-150x53.jpg);
+}
+.logo.oreilly-media {
+    height: 27px;
+    background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
+}
+.logo.code-magazine {
+    height: 55px;
+    background-image: url(/media/sponsors/CODE-Magazine-logo-150x55.jpg);
+}
+.logo.wrox {
+    height: 100px;
+    background-image: url(/media/sponsors/Wrox-logo-100x100.jpg);
+}
+.logo.lake-champlain-shoreline-cruises {
+    height: 100px;
+    background-image: url(/media/sponsors/Lake-Champlain-Shoreline-Cruises-logo-100x100.jpg);
+}
+.logo.logicnp-software {
+    height: 39px;
+    background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
+}
+.logo.devexpress {
+    height: 28px;
+    background-image: url(/media/sponsors/DevExpress-logo-150x28.jpg);
+}
+.logo.champlain-mini-maker-faire {
+    height: 53px;
+    background-image: url(/media/sponsors/Champlain-Mini-Maker-Faire-logo-150x53.jpg);
+}
+.logo.vermont-state-parks {
+    width: 121px;
+    height: 100px;
+    background-image: url(/media/sponsors/Vermont-State-Parks-logo-121x100.jpg);
+}
+.logo.dzone {
+    height: 41px;
+    background-image: url(/media/sponsors/DZone-logo-150x41.jpg);
+}
+.logo.vermont-makers {
+    height: 40px;
+    background-image: url(/media/sponsors/Vermont-Makers-logo-150x40.jpg);
+}
+.logo.green-mountain-coffee-roasters {
+    height: 89px;
+    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
+}
+.logo.ux-design-edge {
+    height: 24px;
+    background-image: url(/media/sponsors/UX-Design-Edge-logo-150x24.jpg);
+}
+.logo.crc-press {
+    height: 47px;
+    background-image: url(/media/sponsors/CRC-Press-logo-150x47.jpg);
+}
+.logo.apress {
+    height: 32px;
+    background-image: url(/media/sponsors/Apress-logo-150x32.jpg);
+}
+.logo.pearson-user-groups {
+    width: 100px;
+    height: 100px;
+    background-image: url(/media/sponsors/Pearson-User-Groups-logo-100x100.jpg);
+}
+.logo.techsmith {
+    height: 23px;
+    background-image: url(/media/sponsors/TechSmith-logo-150x23.jpg);
+}
+#event,
+#event a {
+    color: #888;
+}
+#event {
+    display: inline-block;
+    margin: 2.5em 0 0 -4em;
+    padding: 1.2em 5em 0.8em 4em;
+    background-color: #DDD;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(0, #EEE), to(90%, #DDD));
+    background-image: -webkit-linear-gradient(top, #EEE 0, #DDD 90%);
+    background-image: -moz-linear-gradient(top, #EEE 0, #DDD 90%);
+    background-image: -ms-linear-gradient(top, #EEE 0, #DDD 90%);
+    background-image: -o-linear-gradient(top, #EEE 0, #DDD 90%);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    font-size: 0.8em;
+    -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+#event h1,
+#event ul,
+#event li {
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: middle;
+}
+#event h1,
+#event h1 a {
+    color: #AAA;
+}
+#event h1 {
+    font-size: 6em;
+}
+#event ul {
+    display: block;
+}
+#event li {
+    margin-bottom: 0.6em;
+    margin-left: 0;
+    margin-right: 1em;
+    line-height: 1;
+    list-style: none;
+}
+#event a {
+    text-decoration: none;
+}
+@media all and (min-width: 480px) {
+    #event ul {
+        display: inline-block;
+        margin-top: 1.2em;
+        margin-left: 1.8em;
+    }
+}
+@media all and (min-width: 600px) {
+    #event {
+        font-size: 1em;
+    }
+}
+@media all and (min-width: 768px) {
+    #event {
+        margin-top: 3em;
+    }
+}
+@media all and (min-width: 1024px) {
+    #event {
+        margin-top: 5em;
+        margin-bottom: 2em;
+        padding-right: 10em;
+    }
+}
+article.resource {
+    display: inline-block;
+    margin: 0 2em 1em 0;
+    text-align: center;
+    vertical-align: top;
+}
+article.resource p {
+    margin-top: 0.2em;
+}
+section.error {
+    background-color: transparent;
+    font-size: 1.1em;
+    text-align: center;
+}
+section.error h1,
+section.error h1 a,
+section.error p,
+section.error a {
+    color: #555;
+}
+@media all and (min-width: 600px) {
+    section.error {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        font-size: 1.8em;
+    }
+}
+
+.list-inline svg, .twitter svg {
+    width: 15px;
+    height: 15px;
+}
+
+.passed-notice {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    background: #cce8ff;
+    border: 1px solid #4790ce;
+    border-radius: 6px;
+}
+section.error .passed-notice {
+    display: none;
+}

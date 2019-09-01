@@ -1,0 +1,18 @@
+{
+    "app-dev": {
+        "slug": "app-dev",
+        "title": "AppDev"
+    },
+    "biz-meta": {
+        "slug": "biz-meta",
+        "title": "Biz/Meta"
+    },
+    "language": {
+        "slug": "language",
+        "title": "Language"
+    },
+    "practices": {
+        "slug": "practices",
+        "title": "Practices"
+    }
+}

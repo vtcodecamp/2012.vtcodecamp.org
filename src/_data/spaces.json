@@ -1,0 +1,36 @@
+{
+    "parlor": {
+        "slug": "parlor",
+        "title": "Parlor",
+        "order": 6
+    },
+    "room-1": {
+        "slug": "room-1",
+        "title": "Room 1",
+        "order": 1,
+        "track": "app-dev"
+    },
+    "room-2": {
+        "slug": "room-2",
+        "title": "Room 2",
+        "order": 2,
+        "track": "biz-meta"
+    },
+    "room-3": {
+        "slug": "room-3",
+        "title": "Room 3",
+        "order": 3,
+        "track": "language"
+    },
+    "room-4": {
+        "slug": "room-4",
+        "title": "Room 4",
+        "order": 4,
+        "track": "practices"
+    },
+    "room-5": {
+        "slug": "room-5",
+        "title": "Room 5",
+        "order": 5
+    }
+}

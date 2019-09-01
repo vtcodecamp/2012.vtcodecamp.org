@@ -1,0 +1,342 @@
+{
+    "eric-basile": {
+        "slug": "eric-basile",
+        "firstName": "Eric",
+        "lastName": "Basile",
+        "bio": "Eric Basile is an Engineer at Hitpoint studios in Amherst Massachusetts, where he's worked on titles for iOS and Windows 8. Eric earned his undergrad in Game Programming from Champlain College right here, in Burlington VT. Eric has been attending code camp since its second iteration however, this is his first time presenting.",
+        "twitter": {
+            "href": "https://twitter.com/Samurai336",
+            "title": "Samurai336"
+        },
+        "sessions": [
+            "sdl2-game-development"
+        ]
+    },
+    "paul-blasucci": {
+        "slug": "paul-blasucci",
+        "firstName": "Paul",
+        "lastName": "Blasucci",
+        "bio": "Paul Michael Blasucci is a researcher at Bayard Rock in New York City. He uses .NET (and has been since its beta days) as part of his work such diverse industries as high-end electronics, automated stock trading, and entity resolution research. As a passionate – yet pragmatic – functional programming enthusiast, he has spent the past several years employing a \"functional-first\" methodology to develop compelling solutions to a wide range of business problems. He especially enjoys solving challenges in distributed computing, applied linguistics, and heterogeneous enterprise systems. When not working, he may be found answering questions on Stack Overflow, hacking on various open-source projects (check out [https://github.com/pblasucci](https://github.com/pblasucci)), or taking part in discussions on Microsoft's \"F# Insiders\" mailing list. He is also a co-organizer of the New York City F# Users Group.",
+        "twitter": {
+            "href": "https://twitter.com/pblasucci",
+            "title": "pblasucci"
+        },
+        "sessions": [
+            "beyond-the-box"
+        ]
+    },
+    "steve-bohlen": {
+        "slug": "steve-bohlen",
+        "firstName": "Steve",
+        "lastName": "Bohlen",
+        "bio": "Currently a Senior Technology Evangelist for Microsoft Corporation, Stephen brings his varied 20-plus years of experience in software and technology to assist select Microsoft Partner organizations in their adoption of cutting-edge and pre-release Microsoft developer products and technologies.",
+        "twitter": {
+            "href": "https://twitter.com/sbohlen",
+            "title": "sbohlen"
+        },
+        "sessions": [
+            "behavior-driven-development"
+        ]
+    },
+    "adam-bouchard": {
+        "slug": "adam-bouchard",
+        "firstName": "Adam",
+        "lastName": "Bouchard",
+        "bio": "Adam is the CEO of Agilion, a local web and mobile application consultancy. He is a product innovator who enjoys helping customers implement the right product/market fit. Adam's passion is recognizing patterns, opportunities, bringing together talented individuals and creating elegant solutions across various business domains. Adam's been developing web applications in Ruby on Rails since 2007, and enjoys staying on the cutting edge intersection between business and technology.",
+        "twitter": {
+            "href": "https://twitter.com/adambouchard",
+            "title": "adambouchard"
+        },
+        "sessions": [
+            "build-working-software-faster"
+        ]
+    },
+    "peter-brown": {
+        "slug": "peter-brown",
+        "firstName": "Peter",
+        "lastName": "Brown",
+        "bio": "Peter is a Burlington, VT based web developer at Agilion with a strong passion for software craftsmanship and cats.",
+        "twitter": {
+            "href": "https://twitter.com/beerlington",
+            "title": "beerlington"
+        },
+        "sessions": [
+            "history-of-a-thriving-codebase"
+        ]
+    },
+    "brett-chalupa": {
+        "slug": "brett-chalupa",
+        "firstName": "Brett",
+        "lastName": "Chalupa",
+        "bio": "Brett Chalupa is a Burlington based developer who creates software for clients and for fun. He is an organizer of the Burlington Ruby Conference and the Burlington Ruby user group.",
+        "twitter": {
+            "href": "https://twitter.com/brettchalupa",
+            "title": "brettchalupa"
+        },
+        "sessions": [
+            "educating-with-ruby"
+        ]
+    },
+    "john-cicilio": {
+        "slug": "john-cicilio",
+        "firstName": "John",
+        "lastName": "Cicilio",
+        "bio": "John Cicilio works as a Software Architect at MyWebGrocer. John has a passion for the intersection of science, mathematics and technology. Recently the area of Domain Specific Languages has been a keen interest.",
+        "sessions": [
+            "r"
+        ]
+    },
+    "christian-cote": {
+        "slug": "christian-cote",
+        "firstName": "Christian",
+        "lastName": "Coté",
+        "bio": "Christian Coté is an IT professional with more than 14 years of experience working on business intelligence projects. Christian has been a presenter at a number of conferences and code camps. He currently co-leads the SQL Server PASS chapter in Montreal.",
+        "twitter": {
+            "href": "https://twitter.com/Christian_SQL",
+            "title": "Christian_SQL"
+        },
+        "sessions": [
+            "microsoft-master-data-services-in-your-data-warehouse"
+        ]
+    },
+    "terrence-dorsey": {
+        "slug": "terrence-dorsey",
+        "firstName": "Terrence",
+        "lastName": "Dorsey",
+        "bio": "Terrence Dorsey was the Director of Content Development at [CodeProject.com](http://www.codeproject.com/). Previously a Senior Editor for MSDN Magazine and TechNet Magazine, Terrence is a career technical writer and editor.",
+        "twitter": {
+            "href": "https://twitter.com/tpdorsey",
+            "title": "tpdorsey"
+        },
+        "sessions": [
+            "writing-about-code"
+        ]
+    },
+    "rob-friesel": {
+        "slug": "rob-friesel",
+        "firstName": "Rob",
+        "lastName": "Friesel",
+        "bio": "Rob Friesel is passionate about front-end development and has been described as a JavaScript pedant. He is a 10-year veteran of [Dealer.com](http://www.dealer.com/) and has been a technical reviewer on four books, including \"Professional JavaScript for Web Developers (3rd Ed.)\" and \"Functional JavaScript\".",
+        "twitter": {
+            "href": "https://twitter.com/founddrama",
+            "title": "founddrama"
+        },
+        "sessions": [
+            "beyond-ng-hello-world"
+        ]
+    },
+    "jeff-fritz": {
+        "slug": "jeff-fritz",
+        "firstName": "Jeff",
+        "lastName": "Fritz",
+        "bio": "Jeffrey T. Fritz is a Microsoft MVP, an ASPInsider and Developer Evangelist for Telerik with over 15 years of experience building large-scale multi-tenant web applications in the software-as-a-service model. He is a Penn State graduate with a degree in Management Sciences and Information Systems, and speaks regularly at developer events through the INETA speaker program. Most recently, you can find him writing about ASP.NET in MSDN Magazine and CodeProject. He is currently producing Pluralsight videos about ASP.NET application design and architecture.",
+        "twitter": {
+            "href": "https://twitter.com/csharpfritz",
+            "title": "csharpfritz"
+        },
+        "sessions": [
+            "diversified-asp-net"
+        ]
+    },
+    "russ-fustino": {
+        "slug": "russ-fustino",
+        "firstName": "Russ",
+        "lastName": "Fustino",
+        "bio": "Russ Fustino is Head of Developer Evangelism at ComponentOne. He is a highly experienced Windows Phone and Windows 8 software developer with a passion for conveying relevant, current, and future software development technologies and tools through live seminars, teaching, and internet video productions. Russ is a Microsoft Windows 8 Key Influencer and is a recipient of the INETA Lifetime Achievement award. Russ has a new innovative blog and interview video series with influentials, about current technology, ComponentOne products and developer community called 'Russ Cam'! Check it out at [http://www.componentone.com/russcam](http://www.componentone.com/russcam).",
+        "twitter": {
+            "href": "https://twitter.com/russcamtv",
+            "title": "russcamtv"
+        },
+        "sessions": [
+            "considerations-for-architecting-a-windows-8-app"
+        ]
+    },
+    "john-garland": {
+        "slug": "john-garland",
+        "firstName": "John",
+        "lastName": "Garland",
+        "bio": "John Garland is a Senior Consultant at Wintellect and has been developing software professionally since the 1990's. Prior to consulting, he spent much of his career working on high-performance video and statistical analysis tools for premier sports teams, with an emphasis on the NFL, the NBA, and Division 1 NCAA Football and Basketball. His consulting clients range from small businesses to Fortune-500 companies and his work has been featured at Microsoft conference keynotes and sessions. John lives in New Hampshire with his wife and daughter, where he is an active participant in the New England development community. When he isn't finding cause for yet another upgrade to some piece of home technology, he occasionally turns to motorcycling and Florida Gator Football to unplug. He is a graduate of the University of Florida with a Bachelor's degree in Computer Engineering. John holds several current Microsoft Certifications, including MCPD — Windows Phone Developer, Windows Developer 4, & Windows Azure Developer, and MCTS — Silverlight 4 Development, and Programming in C# Specialist. John is the author of the book \"Windows Store Apps Succinctly\", available through Syncfusion.",
+        "twitter": {
+            "href": "https://twitter.com/dotnetgator",
+            "title": "dotnetgator"
+        },
+        "sessions": [
+            "using-windows-azure-mobile-services-to-build-cloud-enabled-mobile-apps"
+        ]
+    },
+    "david-giard": {
+        "slug": "david-giard",
+        "firstName": "David",
+        "lastName": "Giard",
+        "bio": "David Giard is a former accountant and a former biochemist, who has been developing solutions using Microsoft technologies for over 2 decades. He is a Microsoft MVP; an ASP.NET Insider, an Azure Insider, a member of the INETA Board of Directors; and on the leadership teams of the Great Lakes Area .NET User Group and the Ann Arbor Day of .NET. David has presented at dozens of conferences and user groups around the country. He is the host and producer of the mildly popular online TV show Technology and Friends. He is the co-author of the Wrox book Real World .NET, C#, and Silverlight. You can read his latest thoughts at [www.DavidGiard.com](http://www.davidgiard.com/). David lives in Michigan with his two sons.",
+        "twitter": {
+            "href": "https://twitter.com/DavidGiard",
+            "title": "DavidGiard"
+        },
+        "sessions": [
+            "effective-data-visualization"
+        ]
+    },
+    "bradley-holt": {
+        "slug": "bradley-holt",
+        "firstName": "Bradley",
+        "lastName": "Holt",
+        "bio": "Bradley Holt is Co-Founder and Technical Director at Found Line, a creative services studio with design and development capabilities in web, print, and mobile. He is co-organizer of Code for BTV, a Code for America Brigade and helped to organize the National Day of Civic Hacking in Burlington, Vermont. He also organizes or co-organizes the Burlington, Vermont PHP Users Group, Vermont Code Camp, BTV Gig, and the Northeast PHP Conference. He serves as Board Chair at Vermont Community Access Media (VCAM)—a non-profit community media and technology center. He serves on the Mayor's US Ignite Advisory Committee. He has authored several publications including Writing and Querying MapReduce Views in CouchDB (O'Reilly Media), Scaling CouchDB (O'Reilly Media), PHP 5.4 Cheat Sheet (DZone Refcardz), and Building a Hypermedia API in CouchDB (php|architect). He has spoken at numerous conferences including SXSW Interactive, OSCON, the jQuery Conference, ZendCon, and CouchConf.",
+        "twitter": {
+            "href": "https://twitter.com/BradleyHolt",
+            "title": "BradleyHolt"
+        },
+        "sessions": [
+            "civic-hacking"
+        ]
+    },
+    "everett-mckay": {
+        "slug": "everett-mckay",
+        "firstName": "Everett",
+        "lastName": "McKay",
+        "bio": "Everett McKay is Principal of UX Design Edge, a user experience design training and consulting firm based in St. Albans, Vermont. UX Design Edge's flagship course is UX Design Essentials Workshop, a three-day onsite course where your team members can improve their UX design skills \"by doing\" by redesigning your own app or site. UX Design Edge is offering a three-day UX Design Essentials class in Burlington on October 15 - 17.\n\nEverett is the author of the just-published \"UI is Communication: How to Design Intuitive, User Centered Interfaces by Focusing on Effective Communication\". Previously, Everett was a program manager at Microsoft on the Windows 7 and Windows Vista teams, and was responsible for the Windows User Experience Interaction Guidelines.",
+        "twitter": {
+            "href": "https://twitter.com/UXDesignEdge",
+            "title": "UXDesignEdge"
+        },
+        "sessions": [
+            "designing-for-trust-and-confidence"
+        ]
+    },
+    "kendall-miller": {
+        "slug": "kendall-miller",
+        "firstName": "Kendall",
+        "lastName": "Miller",
+        "bio": "Kendall Miller is one of the founding partners of Gibraltar Software, an Independent Software Vendor (ISV) that develops & markets commercial applications for .NET developers. Introduced commercially in 2009, Loupe is an application logging & monitoring platform that is currently used by customers around the world from individual consultants through Fortune 100 companies and governments. Before starting Gibraltar Software, Kendall worked for multiple startups leading their technology development from beginning through profitability. In each case he's focused on translating enterprise-level performance and capabilities down to smaller companies. Kendall has a B.S in Computer Engineering from the University of Illinois, Urbana-Champaign.",
+        "twitter": {
+            "href": "https://twitter.com/kendallmiller",
+            "title": "kendallmiller"
+        },
+        "sessions": [
+            "open-spaces",
+            "peaks-and-pitfalls-in-creating-commercial-software"
+        ]
+    },
+    "chris-miller": {
+        "slug": "chris-miller",
+        "firstName": "Chris",
+        "lastName": "Miller",
+        "bio": "Chris Miller is a Senior R&D Engineer for Tyler Technologies currently working with web services using ASP.NET MVC and mobile development using Xamarin Studio. He is newly minted Microsoft MVP for Visual Studion and is a Xamarin Certified Mobile Developer. He's @[Anotherlab](https://twitter.com/anotherlab) on Twitter and blogs at [http://anotherlab.rajapet.net/](http://anotherlab.rajapet.net/).",
+        "twitter": {
+            "href": "https://twitter.com/anotherlab",
+            "title": "anotherlab"
+        },
+        "sessions": [
+            "introduction-to-wix"
+        ]
+    },
+    "kyle-mitofsky": {
+        "slug": "kyle-mitofsky",
+        "firstName": "Kyle",
+        "lastName": "Mitofsky",
+        "bio": "Kyle has been developing software applications for the State of Vermont for more than 72 weeks! (sounds better than a little over a year). He's interested in desktop, mobile, and web development technologies, especially if they're on the .NET stack. He blogs about coding at [http://codingeverything.blogspot.com/](http://codingeverything.blogspot.com/).",
+        "twitter": {
+            "href": "https://twitter.com/Kylemit2",
+            "title": "Kylemit2"
+        },
+        "sessions": [
+            "introduction-to-windows-8-apps-for-windows-forms-developers"
+        ]
+    },
+    "alan-peabody": {
+        "slug": "alan-peabody",
+        "firstName": "Alan",
+        "lastName": "Peabody",
+        "bio": "Alan is a developer at Agilion and a believer in the web as a platform. He is passionate about open source and addicted to learning. He plays an active role in the local development community, and can often be found learning and speaking at btvwag, Burlington Ruby, BurlingtonJS, and VT Fun.",
+        "twitter": {
+            "href": "https://twitter.com/alanpeabody",
+            "title": "alanpeabody"
+        },
+        "sessions": [
+            "an-elixir-for-the-webs-future"
+        ]
+    },
+    "jonathan-pearlin": {
+        "slug": "jonathan-pearlin",
+        "firstName": "Jonathan",
+        "lastName": "Pearlin",
+        "bio": "Technical Lead @ [Dealer.com](http://www.dealer.com/) with 10+ years of software engineering experience. Focusing primarily on Java and JVM languages such as Groovy, I am an equal-opportunity, full-stack developer. I am also a contributor to the Grails web framework open source project in my spare time.",
+        "sessions": [
+            "centralized-configuration-management-with-apache-zookeeper"
+        ]
+    },
+    "jason-pelletier": {
+        "slug": "jason-pelletier",
+        "firstName": "Jason",
+        "lastName": "Pelletier",
+        "bio": "Jason Pelletier is Co-Founder and Creative Director at Found Line, a creative services studio with design and development capabilities in web, print, and mobile. He is a founding member and co-organizer of Code for BTV, a Code for America Brigade. As a co-organizer of BTV Gig, he co-authored Burlington's Gigabit Opportunity report. He also co-organizes Vermont Code Camp. Found Line clients include Vermont Public Radio, Fletcher Allen Health Care, CCTV Center for Media & Democracy, and ThinkFlood. Recently, he developed a responsive design for the homepage of the Vermont Public Radio website. Prior to co-founding Found Line, he worked within the Creative Services teams at Stonyfield Farm and Seventh Generation.",
+        "twitter": {
+            "href": "https://twitter.com/jason_pelletier",
+            "title": "jason_pelletier"
+        },
+        "sessions": [
+            "civic-hacking"
+        ]
+    },
+    "john-pile": {
+        "slug": "john-pile",
+        "firstName": "John",
+        "lastName": "Pile",
+        "bio": "John Pile is an assistant professor of game programming at Champlain College, where he teaches courses in graphics programming, game physics, game networking, and iPhone game development. He has over a 15 years of experience as a programmer and game developer. He was a multiplatform engineer on the team that developed the 2009 BAFTA Scotland Game of the Year, *Flock!*, and the acclaimed repackaging of CAPCOM's *Final Flight: Double Impact*. He earned an MS in computer games technology from the University of Abertay.\n\nJohn is the author of \"2D Graphics Programming for Games\", published in 2013 by AK Peters/CRC Press.\n\nWhen not teaching, John continues to develop games as an Indie Developer.",
+        "twitter": {
+            "href": "https://twitter.com/JohnPile",
+            "title": "JohnPile"
+        },
+        "sessions": [
+            "programming-approaches-for-creating-depth-in-2d-games"
+        ]
+    },
+    "rachel-reese": {
+        "slug": "rachel-reese",
+        "firstName": "Rachel",
+        "lastName": "Reese",
+        "bio": "Rachel Reese is a long-time software engineer and math geek who has recently relocated to the lovely Burlington, Vermont. She runs the local functional programming user group, @[VTFun](https://twitter.com/VTFun), which is a constant source of inspiration to her, and at which she often speaks on F#. She's also an ASPInsider, an F# MVP, a community enthusiast, one of the founding @[lambdaladies](https://twitter.com/lambdaladies), and a Rachii. You can find her on twitter, @[rachelreese](https://twitter.com/rachelreese), or on her blog: [rachelree.se](http://rachelree.se/).",
+        "twitter": {
+            "href": "https://twitter.com/rachelreese",
+            "title": "rachelreese"
+        },
+        "sessions": [
+            "getting-started-with-f"
+        ]
+    },
+    "eric-smith": {
+        "slug": "eric-smith",
+        "firstName": "Eric",
+        "lastName": "Smith",
+        "bio": "Eric Smith is Technology Director at EatingWell Media Group. He has been programming for more than 30 years.",
+        "twitter": {
+            "href": "https://twitter.com/eric_s_smith",
+            "title": "eric_s_smith"
+        },
+        "sessions": [
+            "essentials-of-scala"
+        ]
+    },
+    "kevin-thorley": {
+        "slug": "kevin-thorley",
+        "firstName": "Kevin",
+        "lastName": "Thorley",
+        "bio": "Kevin Thorley is a Principal on the Web Platform Architecture team at [Dealer.com](http://www.dealer.com/). He has been developing enterprise Java applications for 13 years, spending much of the last 3 years focused on both the development and operational challenges associated with running over ten thousand public-facing websites on a single platform. His current interests revolve around building high performance, stable applications, as well as tuning and improving existing applications. Kevin lives in Colchester, VT with his wife and two children.",
+        "twitter": {
+            "href": "https://twitter.com/kevinthorley",
+            "title": "kevinthorley"
+        },
+        "sessions": [
+            "listening-to-your-applications"
+        ]
+    },
+    "peter-vile": {
+        "slug": "peter-vile",
+        "firstName": "Peter",
+        "lastName": "Vile",
+        "bio": "Peter Vile received his master degree from Colorado State University in computer science with a focus on software engineering specializing in distrubted systems and aspect oriented middleware. Since then he has been a developing web based solutions and services in the Java ecosystem in several domains such as defense, telecom and now automotive. Currently he works for [Dealer.com](http://www.dealer.com/) focused internal and external integration projects. While not chasing his two boys around he tries to stay up on messaging technologies and is currently dabbling in Scala.",
+        "sessions": [
+            "utilizing-varnish-and-rest"
+        ]
+    }
+}

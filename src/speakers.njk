@@ -1,0 +1,39 @@
+---
+layout: page-layout.njk
+title: 2013 Speakers
+meta_title: '2013 Speakers :: Vermont Code Camp'
+description: Read more about the Vermont Code Camp 2013 speakers.
+meta_description: Read more about the Vermont Code Camp 2013 speakers.
+---
+
+<h1>{{ title }}</h1>
+
+<p>{{ description }}</p>
+
+{% for speakerSlug, speaker in speakers %}
+    <article class="speaker">
+        <h2 id="{{ speaker.slug }}">{{ speaker.firstName }} {{ speaker.lastName }}
+        {% if speaker.twitter %} 
+            <small class="twitter">
+                <a href="{{ speaker.twitter.href }}">
+                    {% include "fa/twitter.svg" %}
+                    @{{ speaker.twitter.title }}
+                </a>
+            </small>
+        {% endif %}
+        </h2>
+
+        {{ speaker.bio | markdown | safe }}
+
+        {% if speaker.sessions %}
+            <p>Sessions:</p>
+            <ul> 
+            {% for sessionSlug in speaker.sessions %}
+                {% set session = sessions[sessionSlug] %}
+                <li><a href="/sessions#{{ session.slug }}">{{ session.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </article>
+{% endfor %}
+
