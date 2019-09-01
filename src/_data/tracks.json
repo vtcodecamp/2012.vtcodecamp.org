@@ -1,18 +1,22 @@
 {
-    "app-dev": {
-        "slug": "app-dev",
-        "title": "AppDev"
+    "architecture": {
+        "slug": "architecture",
+        "title": "Software & Architecture"
     },
-    "biz-meta": {
-        "slug": "biz-meta",
-        "title": "Biz/Meta"
+    "data": {
+        "slug": "data",
+        "title": "Data"
     },
-    "language": {
-        "slug": "language",
-        "title": "Language"
+    "design": {
+        "slug": "design",
+        "title": "HTML5, JavaScript & Design"
     },
-    "practices": {
-        "slug": "practices",
-        "title": "Practices"
+    "exploration": {
+        "slug": "exploration",
+        "title": "Exploration"
+    },
+    "performance": {
+        "slug": "performance",
+        "title": "QA, Scaling & Performance"
     }
 }
