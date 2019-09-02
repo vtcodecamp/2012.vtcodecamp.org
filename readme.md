@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8f77162c-22b1-4636-8e50-0f288acb5160/deploy-status)](https://app.netlify.com/sites/vtcodecamp2013/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af3ef06c-e066-48b0-ab07-17b0a4e36470/deploy-status)](https://app.netlify.com/sites/vtcodecamp2012/deploys)
 
 # VT Code Camp 2012 Website
 
