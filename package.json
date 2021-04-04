@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "VT Code Camp 2012 website",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.12.1"
   },
   "scripts": {
     "build": "npx eleventy",
